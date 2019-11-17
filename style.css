@@ -45,8 +45,8 @@
 }
 
 @keyframes btn2{
-    to{transform: translateX(0%); opacity: 0;}
-    from{transform: translateX(-1000%); opacity: 1;}
+    to{transform: translateX(0%); opacity: 1;}
+    from{transform: translateX(-1000%); opacity: 0;}
 }
 
 /* .btn-1::after{
@@ -65,7 +65,7 @@
     opacity: 0;
 /* } */
 
-.btn-2:hover{
+.btn-1:hover{
     background: black;
     color: white;
     cursor: pointer;
